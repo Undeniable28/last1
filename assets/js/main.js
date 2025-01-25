@@ -9,7 +9,7 @@ document.querySelector('.login__form').addEventListener('submit', function (e) {
    // Check if email and password match
    if (emailInput === 'example@gmail.com' && passwordInput === 'example') {
        // Redirect to index1.html
-       window.location.href = '/New folder (3)/index.html';
+       window.location.href = 'New-folder/index.html';
    } else {
        alert('Invalid email or password. Please try again.');
    }
